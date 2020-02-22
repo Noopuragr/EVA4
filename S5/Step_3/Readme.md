@@ -1,14 +1,16 @@
-Target: To reduce overfitting and gap betweentrain and test accuracy
+Target: 
+1. To reduce overfitting.
+2. Reduce gap between train and test accuracy
 
 Changes Made : Added Batch normalization and dropout 
 
 Result :
 
-Total params: 9,588
-Train Accuracy : 99.24
-Test Accuracy : 99.24
+1. Total params: 9,588
+2. Train Accuracy : 99.24
+3. Test Accuracy : 99.24
 
 Analysis : 
-Good Model
-No overfitting, model is capable if pushed further
-Still need to improve accuracy
+1. Good Model
+2. No overfitting, model is capable if pushed further
+3. Still need to improve accuracy
