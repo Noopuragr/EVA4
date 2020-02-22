@@ -3,7 +3,7 @@ Target:
 2. To get less than 10 K parameters.
 
 Changes Done:
-Changed the size of kernels ot get the required parameters.
+Changed the size of kernels to get the required parameters.
 
 Results:
 1. Total params: 9,448
