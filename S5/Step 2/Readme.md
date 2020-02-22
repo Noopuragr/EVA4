@@ -1,6 +1,6 @@
 Target:
 Get the basic skeleton right.
-To get less than 10 K parameters
+To get less than 10 K parameters.
 
 Results:
 
@@ -9,5 +9,5 @@ Best Train Accuracy: 99.16
 Best Test Accuracy: 98.63
 
 Analysis:
-The model is still overfitting, but parameters are in range. 
+Getting parameters in range but we need to improve accuracy. 
 
