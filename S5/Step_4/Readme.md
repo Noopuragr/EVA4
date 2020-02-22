@@ -1,5 +1,6 @@
-Target:
+Target: To improve the accuracy
 
+Changes Made
 1. Add GAP 
 2. Remove the last BIG kernel.
 
