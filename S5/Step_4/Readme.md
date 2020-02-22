@@ -5,9 +5,9 @@ Changes Made
 2. Remove the last big kernel.
 
 Results:
-1.Parameters: 6k
-2. Best Train Accuracy: 98.82
-3 .Best Test Accuracy: 99.11
+1.Parameters: 6k.
+2. Best Train Accuracy: 98.82.
+3 .Best Test Accuracy: 99.11.
 
 Analysis:
 1. After adding GAP, parameters are reduced.
