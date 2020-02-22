@@ -10,5 +10,5 @@ Results:
 3 .Best Test Accuracy: 99.11
 
 Analysis:
-After adding GAP, parameters are reduced.
-We need to increase the capacity to improve accuracy.
+1. After adding GAP, parameters are reduced.
+2. We need to increase the capacity to improve accuracy.
