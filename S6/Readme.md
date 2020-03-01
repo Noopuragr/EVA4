@@ -5,7 +5,7 @@ URL for Misclassified image for L2:
 
 URL for Loss Change function : 
  
- URL for Accuracy change :
+ URL for Validation Accuracy change :
  
  Observation : 
  
