@@ -23,7 +23,7 @@ Observations
 
 • Out of all the loss functions used we got L1 as the best one.
 
-• L2 loss, the values seems to be spiking up and down. Values were taken as 5,0.5.0.05,0.005 and finally decided on 0.00005 value but still the peaks are observed.
+• L2 loss, the values seems to be spiking up and down. Values were taken as 5,0.5.0.05,0.005 and finally decided on 0.0003 value but still the peaks are observed.
 
 • For both L1 and L2 loss implementation the values seem to steadyily moving across though our intuition says that the values might have to be lesser.
 
