@@ -1,6 +1,8 @@
 
 This model implemented the first use of CIFAR. Here we have used all the concepts as mentioned in Session 7.
 
+Total params: 535,456
+
 Dropout
 
 Batch Normalization
