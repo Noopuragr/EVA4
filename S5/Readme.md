@@ -6,9 +6,11 @@ The goal of this assignment is to reach a test accuracy of 99.4% on the MNIST te
 - The desired accuracy should be achieved in 15 epochs
 - The desired target should be achieved in a minimum of 5 steps.
 
-** Step 1
+**Step 1**
+
 [Step1 code](https://github.com/Noopuragr/EVA4/blob/master/S5/Step1/Step_1.ipynb)
-* Targets:
+
+***Targets***:
 
 - Get the set-up right
 - Set Transforms
@@ -16,11 +18,11 @@ The goal of this assignment is to reach a test accuracy of 99.4% on the MNIST te
 - Set Basic Working Code
 - Set Basic Training & Test Loop
 
-*Results:
+***Results***:
 - Total params: 194,884
 - Best Training Accuracy: 99.47
 - Best Test Accuracy: 98.91
 
-*Analysis:
+***Analysis***:
 - Extremely Heavy Model for such a problem
 - Model is over-fitting, but we are changing our model in the next step
