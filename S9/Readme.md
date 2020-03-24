@@ -17,7 +17,13 @@ HorizontalFlip(),.
 
 Normalize(mean=[0.5, 0.5, 0.5],std=[0.5, 0.5, 0.5]).
 
-Implemented GradCam.
+**Missclassified images**
+[!Misclassified_images](https://github.com/Noopuragr/EVA4/blob/master/S9/misclassified.PNG)
+
+**Implemented GradCam**
 
 ![Gradcam](https://github.com/Noopuragr/EVA4/blob/master/S9/grad.PNG)
+
+**Accuracy plot**
+[!Accuracy plot](https://github.com/Noopuragr/EVA4/blob/master/S9/acc_plot.PNG)
 
