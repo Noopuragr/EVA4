@@ -1,25 +1,28 @@
+# Session 7 - Advanced Convolutions
 
-This model implemented the first use of CIFAR. Here we have used all the concepts as mentioned in Session 7.
+This model implemented the first use of CIFAR. Here we have used all the concepts as mentioned in Session 7 with advance convolution techniques. 
 
-Total params: 535,456
+- Total params: 535,456
 
-Dropout
+- Dropout
 
-Batch Normalization
+- Batch Normalization
 
-Depthwise Seperable Convolution
+- Depthwise Seperable Convolution
 
-Dilated convolution
+- Dilated convolution
 
-Utility Function
+- Utility Function
 
-Training and testing function
+- Training and testing function
 
-Accuracy Functions
+- Accuracy Functions
 
 
-Top Accuracy = 82.35% (9tth Epoch) We have reached Receptive Field of 60 which is shown in the Model.py file as comments.
+- Top Accuracy = 82.35% (9tth Epoch) We have reached Receptive Field of 60 which is shown in the Model.py file as comments.
 
+
+**Receptive Field Calculation**
 
 | K,p,s          | Image  | RF (in)  | RF (out)  | J(out)  |
 |--------------- |------- |--------- |---------- |-------- |
