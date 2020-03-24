@@ -1,26 +1,32 @@
+# Session 8 - Receptive Fields and Network Architecture
+
 This is resnet model implemented on cifar dataset. 
 
-Data Augmentations used = {Random Crop, Random Horizontal Flip, To Tensor, Normalize}
+The model reaches a maximum accuracy of **91.51%** in 47 epochs on CIFAR-10 dataset using **ResNet-18** model.
 
-Optimizer = SGD
+**Parameters and Hyperparameters**
 
-LR = 0.001
+- Data Augmentations used = {Random Crop, Random Horizontal Flip}
 
-Momentum = 0.95
+- Optimizer = SGD
 
-Weight decay = 0.0004
+- LR = 0.001
 
-Scheduler = OneCycleLR
+- Momentum = 0.95
 
-Max LR = 0.1
+- Weight decay = 0.0004
 
-Total Steps =20
+- Scheduler = OneCycleLR
 
-Epochs = 20
+- Max LR = 0.1
 
-Training ACCURACY = 97%
+- Total Steps =20
 
-Testing ACCURACY = 92.62%
+- Epochs = 20
+
+- Training ACCURACY = 97%
+
+- Testing ACCURACY = 92.62%
 
 
 Top Accuracy = 92.62% (20th Epoch) 
