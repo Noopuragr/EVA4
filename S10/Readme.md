@@ -5,5 +5,8 @@ In this session, we learned
 ![](https://github.com/Noopuragr/EVA4/blob/master/S10/Images/lr.PNG)
 * Implemented ReduceLROnPlateau.
 * Ran the model for 50 epoch.
-* Plotted grad cam images for mis-classified images.
+![](https://github.com/Noopuragr/EVA4/blob/master/S10/Images/acc.PNG)
+* Plotted grad cam images for 25 mis-classified images.
+![](https://github.com/Noopuragr/EVA4/blob/master/S10/Images/mis1.PNG)
+![](https://github.com/Noopuragr/EVA4/blob/master/S10/Images/mis2.PNG)
 
