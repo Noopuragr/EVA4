@@ -11,9 +11,7 @@ In this session we implemented
 3. RandomCrop 32, 32 (after padding of 4) >> FlipLR >> Followed by CutOut(8, 8)
 4. Batch size = 512
 5. Accuracy > 90 %
-6. Trained images
-
-![](https://github.com/Noopuragr/EVA4/blob/master/S11/Images/train_imgs.PNG)
+6. Trained images ![](https://github.com/Noopuragr/EVA4/blob/master/S11/Images/train_imgs.PNG)
 7. Plot for LR vs Accuracy
 
 ![](https://github.com/Noopuragr/EVA4/blob/master/S11/Images/LR_vs_Acc.PNG)
