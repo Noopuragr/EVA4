@@ -56,8 +56,8 @@ class TrainTestandUtils():
             loss.backward()
 
             self.optimizer.step()
-            # if(self.scheduler):
-            #    self.scheduler.step()
+            if(self.scheduler):
+               self.scheduler.step()
 
 
             # Update pbar-tqdm
