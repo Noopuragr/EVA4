@@ -7,5 +7,6 @@ Train ResNet18 on this dataset (70/30 split) for 50 Epochs. Target 50%+ Validati
 
 * Observation 
 Overfitting is there.
-Submit Results. Of course, you are using your own package for everything. You can look at this (Links to an external site.) for reference.
+Submit Results. Of course, you are using your own package for everything. 
+You can look at this (Links to an external site.) for reference.
 
