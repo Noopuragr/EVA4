@@ -32,7 +32,7 @@
 ### 4. Overlapping foreground and background and creating mask
 * By this we had 100 background, 100 foreground and mask images.
 * Since we were 5 in a team we decided to create 80k images each.
-* ![This](https://github.com/Noopuragr/EVA4/blob/master/S14-15/S14_Overlaying_and_masking_v2.ipynb)  is the code we followed.
+* [This](https://github.com/Noopuragr/EVA4/blob/master/S14-15/S14_Overlaying_and_masking_v2.ipynb)  is the code we followed.
 * For each background images, we took 20 foreground images,their flips, mask and flips masks images and overlapped 20 times at 20 random positions
 * For flips we used PIL modules Image.FLIP_LEFT_RIGHT function.
 * To generate masks for overlayed images, first we generated black background of size same as background image and overlayed the foreground mask on top of it.
@@ -45,7 +45,7 @@
 
 ### 5. Generating depth images for fg-bg images
 * Since we don't have any depth camera, we had to lie on some pre-trained model to generate depth images.
-* we referred ![this](https://github.com/ialhashim/DenseDepth) repository to generate our depth images. It is trained on KITTY and NYU dataset.
+* we referred [this](https://github.com/ialhashim/DenseDepth) repository to generate our depth images. It is trained on KITTY and NYU dataset.
 * We used NYU trained model to generate images, because our images were similar to NYU dataset, so we get good results.
 * We modified some portion of the code to get the results we want.
 * In layers.py we modified resize_images as resize, since the syntax was changed from tf>2.0
@@ -65,8 +65,8 @@
 * It took around 20 min and finally we have 5 zips of approx 800MB. 
 
 ### 7. Calculation Of Mean and Standard Deviation and generating labels
-* Used ![this](https://github.com/Noopuragr/EVA4/blob/master/S14-15/Mean_and_STD_of_dataset.ipynb) code to calculate mean and std of image. Mean and std are important to apply transformation, to normalise the data etc..
-* Used ![this](https://github.com/Noopuragr/EVA4/blob/master/S14-15/Generate_labels.ipynb) code to generate the path of all images. It is in a order FG BG FG-BG FG-BG-Mask Depth.
+* Used [this](https://github.com/Noopuragr/EVA4/blob/master/S14-15/Mean_and_STD_of_dataset.ipynb) code to calculate mean and std of image. Mean and std are important to apply transformation, to normalise the data etc..
+* Used [this](https://github.com/Noopuragr/EVA4/blob/master/S14-15/Generate_labels.ipynb) code to generate the path of all images. It is in a order FG BG FG-BG FG-BG-Mask Depth.
 
 ## Final Statistics
 
