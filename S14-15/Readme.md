@@ -1,7 +1,7 @@
 
 # Monocular Depth Estimation and Segmentation Data Preparation
 
-## Preparation od data
+## Preparation of data
 1. Collected 100 background images.
 2. Collected 100 foreground images, removed it's background and made it transparent.
 3. Created masks for 100 foreground images.
@@ -41,7 +41,7 @@
 * So at a time we are saving 4 images at once, 1 fg-bg, 1fg-bg-flip, 1 fg-bg-mask, 1 fg-bg-flip-mask in 2 folders - 1 for mask ,and other for original
 * It took around 10 minutes for 80k images.
 * Then we zipped both the folders.
-* At the end we had 5 zip folder named as data_Part1, data_Part2,...data_Part5. Each are arounf 580MB.
+* At the end we had 5 zip folder named as data_Part1, data_Part2,...data_Part5. Each are around 580MB.
 
 ### 5. Generating depth images for fg-bg images
 * Since we don't have any depth camera, we had to lie on some pre-trained model to generate depth images.
@@ -67,6 +67,15 @@
 ### 7. Calculation Of Mean and Standard Deviation and generating labels
 * Used this code to calculate mean and std of image. Mean and std are important to apply transformation, to normalise the data etc..
 * Used this code to generate the path of all images. It is in a order FG BG FG-BG FG-BG-Mask Depth.
+
+## Final Statistics
+
+| Type | Mean | Standard Deviation |
+| -----|------|--------------------|
+|Fg-Bg |[0.65830478, 0.61511271, 0.5740604 ]| [0.24408717, 0.2542491, 0.26870159] |
+| Fg-Bg-Mask | [0.04608837, 0.04608837, 0.04608837] | [0.20544916, 0.20544916, 0.20544916] |
+| Depth-Images | [0.50911522, 0.50911522, 0.50911522] | [0.28174302, 0.28174302, 0.28174302] |
+
 
 ## Background images
 ![](https://github.com/Noopuragr/EVA4/blob/master/S14-15/background.PNG)
