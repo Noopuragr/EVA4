@@ -59,3 +59,8 @@
     4. In between colab used to crash, we changed the start number according to number of images already processed and run again for remaining images.
 * Zipped the entire folder
 * Each depth image size is 2-3kb. Each of 5 zip files took around 260-290 MB of storage.
+
+## The final output looks like this. 
+![Input](https://github.com/Noopuragr/EVA4/blob/master/S14-15/input.PNG)
+
+![Output](https://github.com/Noopuragr/EVA4/blob/master/S14-15/output.PNG)
