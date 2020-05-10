@@ -60,7 +60,25 @@
 * Zipped the entire folder
 * Each depth image size is 2-3kb. Each of 5 zip files took around 260-290 MB of storage.
 
-## The final output looks like this. 
-![Input](https://github.com/Noopuragr/EVA4/blob/master/S14-15/input.PNG)
+### 6. Merging the coresponding fg-bg and depth images
+* Since we have 5 fg-bg zip, 5 and depth zip, we thought of merging each of 1 fg-bg zip with corresponding depth zip.
+* It took around 20 min and finally we have 5 zips of approx 800MB. Used this code.
 
-![Output](https://github.com/Noopuragr/EVA4/blob/master/S14-15/output.PNG)
+### 7. Calculation Of Mean and Standard Deviation and generating labels
+* Used this code to calculate mean and std of image. Mean and std are important to apply transformation, to normalise the data etc..
+* Used this code to generate the path of all images. It is in a order FG BG FG-BG FG-BG-Mask Depth.
+
+## Background images
+![](https://github.com/Noopuragr/EVA4/blob/master/S14-15/background.PNG)
+## Foreground images
+![](https://github.com/Noopuragr/EVA4/blob/master/S14-15/foreground.PNG)
+## Foreground mask images
+![](https://github.com/Noopuragr/EVA4/blob/master/S14-15/fg_mask.PNG)
+## FG-BG Overlayed
+![](https://github.com/Noopuragr/EVA4/blob/master/S14-15/fg_and_bg.PNG)
+## FG-BG Mask
+![](https://github.com/Noopuragr/EVA4/blob/master/S14-15/fg_bg_mask.PNG)
+## Depth
+![](https://github.com/Noopuragr/EVA4/blob/master/S14-15/fg_bg_depth.PNG)
+
+
