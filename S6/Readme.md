@@ -3,17 +3,17 @@
 ## Aim :
 * To perform handwritten digits classification using MNIST dataset with 99.4 % accuracy in less then 40 epochs.
 * To explore the performance of different regularization techniques. 
-** Without L1 and L2 regularization.
-** With L1 regularization.
-** With L2 regularization.
-** With L1 and L2 regularization.
+### Without L1 and L2 regularization.
+### With L1 regularization.
+### With L2 regularization.
+### With L1 and L2 regularization.
 
 * After model training, display 25 misclassified images for L1 and L2 models.
 
-**Misclassified image for L1:**
+**Misclassified image using L1 Regularization:**
 ![L1](https://github.com/Noopuragr/EVA4/blob/master/S6/L1.PNG)
 
-**Misclassified image for L2:**
+**Misclassified image using L2 Regularization:**
 ![L2](https://github.com/Noopuragr/EVA4/blob/master/S6/L2.PNG)
 
 **Loss Change function :**
@@ -22,10 +22,10 @@
  **Validation Accuracy change :**
  ![Accuracy](https://github.com/Noopuragr/EVA4/blob/master/S6/val_acc.PNG)
  
- Observation : 
+### Observation : 
 
 
-###### Observations
+
 
 - Without any loss functions the code ran for 40 epochs and the best value of loss obtained was ~0.07.
 
