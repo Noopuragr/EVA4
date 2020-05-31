@@ -1,12 +1,14 @@
 # Batch Normalization & Regularization
 
 ## Aim :
+
 * To perform handwritten digits classification using MNIST dataset with 99.4 % accuracy in less then 40 epochs.
 * To explore the performance of different regularization techniques. 
-### Without L1 and L2 regularization.
-### With L1 regularization.
-### With L2 regularization.
-### With L1 and L2 regularization.
+
+  - Without L1 and L2 regularization.
+  - With L1 regularization.
+  - With L2 regularization.
+  - With L1 and L2 regularization.
 
 * After model training, display 25 misclassified images for L1 and L2 models.
 
