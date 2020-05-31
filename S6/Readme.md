@@ -1,12 +1,14 @@
-# Session 6 Regularization
+# Batch Normalization & Regularization
 
-The goal of this assignment is to apply L1 and L2 regularization on the final model from the previous session and plot the changes in validation loss and accuracy obtained during model training in the following scenarios:
+## Aim :
+* To perform handwritten digits classification using MNIST dataset with 99.4 % accuracy in less then 40 epochs.
+* To explore the performance of different regularization techniques. 
+** Without L1 and L2 regularization
+** With L1 regularization
+** With L2 regularization
+** With L1 and L2 regularization
 
-Without L1 and L2 regularization
-With L1 regularization
-With L2 regularization
-With L1 and L2 regularization
-After model training, display 25 misclassified images for L1 and L2 models.
+* After model training, display 25 misclassified images for L1 and L2 models.
 
 **URL for Misclassified image for L1:**
 ![L1](https://github.com/Noopuragr/EVA4/blob/master/S6/L1.PNG)
