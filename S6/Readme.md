@@ -10,16 +10,16 @@
 
 * After model training, display 25 misclassified images for L1 and L2 models.
 
-**URL for Misclassified image for L1:**
+**Misclassified image for L1:**
 ![L1](https://github.com/Noopuragr/EVA4/blob/master/S6/L1.PNG)
 
-**URL for Misclassified image for L2:**
+**Misclassified image for L2:**
 ![L2](https://github.com/Noopuragr/EVA4/blob/master/S6/L2.PNG)
 
-**URL for Loss Change function :**
+**Loss Change function :**
 ![Loss function](https://github.com/Noopuragr/EVA4/blob/master/S6/loss_function.PNG)
  
- **URL for Validation Accuracy change :**
+ **Validation Accuracy change :**
  ![Accuracy](https://github.com/Noopuragr/EVA4/blob/master/S6/val_acc.PNG)
  
  Observation : 
