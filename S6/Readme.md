@@ -3,7 +3,7 @@
 ## Aim :
 
 * To perform handwritten digits classification using MNIST dataset with 99.4 % accuracy in less then 40 epochs.
-* To explore the performance of different regularization techniques. 
+* To explore the performance of DNN by applying different regularization techniques. 
 
   - Without L1 and L2 regularization.
   - With L1 regularization.
@@ -12,7 +12,7 @@
 
 * After model training, display 25 misclassified images for L1 and L2 models.
 
-**Misclassified image using L1 Regularization:**
+**Misclassified image using L1 Regularization: **
 ![L1](https://github.com/Noopuragr/EVA4/blob/master/S6/L1.PNG)
 
 **Misclassified image using L2 Regularization:**
