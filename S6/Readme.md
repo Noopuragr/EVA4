@@ -12,16 +12,19 @@
 
 * After model training, display 25 misclassified images for L1 and L2 models.
 
-**Misclassified image using L1 Regularization: **
+**Misclassified image using L1 Regularization:**
 ![L1](https://github.com/Noopuragr/EVA4/blob/master/S6/L1.PNG)
 
 **Misclassified image using L2 Regularization:**
+
 ![L2](https://github.com/Noopuragr/EVA4/blob/master/S6/L2.PNG)
 
 **Loss Change function :**
+
 ![Loss function](https://github.com/Noopuragr/EVA4/blob/master/S6/loss_function.PNG)
  
  **Validation Accuracy change :**
+ 
  ![Accuracy](https://github.com/Noopuragr/EVA4/blob/master/S6/val_acc.PNG)
  
 ### Observation : 
