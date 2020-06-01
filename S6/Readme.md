@@ -14,10 +14,12 @@
 ### Train data :
   - Total number of images : 60,000
   - Batch size : 32
+  - Image size : 28*28*1
   
 ### Test Size:
   - Total number of images  10,000
   - Batch size : 32
+  - Image size : 28*28*1
 
 ## DNN Model
   - Total number of parameters : 8,286
@@ -26,10 +28,10 @@
 
 * After model training, display 25 misclassified images for L1 and L2 models.
 
-**Misclassified image using L1 Regularization:**
+## Misclassified image using L1 Regularization:**
 ![L1](https://github.com/Noopuragr/EVA4/blob/master/S6/L1.PNG)
 
-**Misclassified image using L2 Regularization:**
+## Misclassified image using L2 Regularization:**
 
 ![L2](https://github.com/Noopuragr/EVA4/blob/master/S6/L2.PNG)
 
@@ -42,9 +44,6 @@
  ![Accuracy](https://github.com/Noopuragr/EVA4/blob/master/S6/val_acc.PNG)
  
 ### Observation : 
-
-
-
 
 - Without any loss functions the code ran for 40 epochs and the best value of loss obtained was ~0.07.
 
