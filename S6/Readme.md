@@ -9,6 +9,49 @@
   - With L1 regularization.
   - With L2 regularization.
   - With L1 and L2 regularization.
+  
+## Data description
+### Train data :
+  - Total number of images : 60,000
+  - Batch size : 32
+  
+### Test Size:
+  - Total number of images  10,000
+  - Batch size : 32
+
+## DNN Model
+  - Total number of parameters : 8,286
+  -         Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1           [-1, 10, 28, 28]              90
+              ReLU-2           [-1, 10, 28, 28]               0
+       BatchNorm2d-3           [-1, 10, 28, 28]              20
+           Dropout-4           [-1, 10, 28, 28]               0
+            Conv2d-5           [-1, 16, 28, 28]           1,440
+              ReLU-6           [-1, 16, 28, 28]               0
+       BatchNorm2d-7           [-1, 16, 28, 28]              32
+           Dropout-8           [-1, 16, 28, 28]               0
+            Conv2d-9           [-1, 10, 28, 28]             160
+        MaxPool2d-10           [-1, 10, 14, 14]               0
+           Conv2d-11           [-1, 16, 14, 14]           1,440
+             ReLU-12           [-1, 16, 14, 14]               0
+      BatchNorm2d-13           [-1, 16, 14, 14]              32
+           Conv2d-14           [-1, 16, 14, 14]           2,304
+             ReLU-15           [-1, 16, 14, 14]               0
+      BatchNorm2d-16           [-1, 16, 14, 14]              32
+          Dropout-17           [-1, 16, 14, 14]               0
+           Conv2d-18           [-1, 16, 14, 14]             256
+        MaxPool2d-19             [-1, 16, 7, 7]               0
+           Conv2d-20             [-1, 10, 7, 7]           1,440
+             ReLU-21             [-1, 10, 7, 7]               0
+      BatchNorm2d-22             [-1, 10, 7, 7]              20
+          Dropout-23             [-1, 10, 7, 7]               0
+           Conv2d-24             [-1, 10, 7, 7]             900
+             ReLU-25             [-1, 10, 7, 7]               0
+      BatchNorm2d-26             [-1, 10, 7, 7]              20
+          Dropout-27             [-1, 10, 7, 7]               0
+        AvgPool2d-28             [-1, 10, 1, 1]               0
+           Conv2d-29             [-1, 10, 1, 1]             100
 
 * After model training, display 25 misclassified images for L1 and L2 models.
 
