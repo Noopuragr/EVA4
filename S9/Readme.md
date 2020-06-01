@@ -29,7 +29,7 @@ Around 60K images of 10 different classes : ship, bird,plane, automobile, cat, d
 
 ## Model Structure
 
-
+![](https://github.com/Noopuragr/EVA4/blob/master/S9/S9_model.PNG)
 
 
 **Missclassified images**
