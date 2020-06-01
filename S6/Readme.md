@@ -23,7 +23,7 @@
 
 ## DNN Model
 
-For code, please refer this notebook : ![Code](https://github.com/Noopuragr/EVA4/blob/master/S6/S6_Code_final_40epochs.ipynb)
+For python code, please refer this notebook : [Click here](https://github.com/Noopuragr/EVA4/blob/master/S6/S6_Code_final_40epochs.ipynb)
   - Total number of parameters : 8,286
   
 ![Model](https://github.com/Noopuragr/EVA4/blob/master/S6/S6_model.PNG)
