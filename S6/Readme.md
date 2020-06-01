@@ -36,11 +36,11 @@
 ![L2](https://github.com/Noopuragr/EVA4/blob/master/S6/L2.PNG)
 
 **Loss Change function :
-
+ This is loss vs epochs curve. It shows how the loss is decreasing as per epochs.
 ![Loss function](https://github.com/Noopuragr/EVA4/blob/master/S6/loss_function.PNG)
  
  **Validation Accuracy change :
- 
+  This is loss vs epochs curve. It shows how the accuracy is increasing as per epochs.
  ![Accuracy](https://github.com/Noopuragr/EVA4/blob/master/S6/val_acc.PNG)
  
 ### Observation : 
