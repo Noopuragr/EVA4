@@ -22,6 +22,8 @@
   - Image size : 28 * 28 * 1
 
 ## DNN Model
+
+For code, please refer this notebook : ![Code](https://github.com/Noopuragr/EVA4/blob/master/S6/S6_Code_final_40epochs.ipynb)
   - Total number of parameters : 8,286
   
 ![Model](https://github.com/Noopuragr/EVA4/blob/master/S6/S6_model.PNG)
