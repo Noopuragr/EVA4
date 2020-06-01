@@ -36,6 +36,8 @@ Around 60K images of 10 different classes : ship, bird,plane, automobile, cat, d
 
 ## Model Structure
 
+For code, please refer this python notebook : [Click here](https://github.com/Noopuragr/EVA4/blob/master/S9/S9.ipynb)
+
 ![](https://github.com/Noopuragr/EVA4/blob/master/S9/S9_model.PNG)
 
 
