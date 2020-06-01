@@ -40,7 +40,7 @@ Around 60K images of 10 different classes : ship, bird,plane, automobile, cat, d
 
 
 **Missclassified images**
-![Misclassified_images](https://github.com/Noopuragr/EVA4/blob/master/S9/misclassified.PNG)
+![Misclassified_images](https://github.com/Noopuragr/EVA4/blob/master/S9/Cutout/misclassified.png)
 
 **Implemented GradCam**
 
