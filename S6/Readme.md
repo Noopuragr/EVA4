@@ -1,4 +1,4 @@
-# Batch Normalization & Regularization
+# Handwritten digits classificationusing MNIST datasets
 
 ## Aim :
 
