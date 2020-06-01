@@ -1,21 +1,36 @@
-# Session 9 - Data Augmentation and Grad Cam
+# Image classification using CIFAR dataset
 
-The model reaches a maximum accuracy of **91.53%** in 20th epochs on CIFAR-10 dataset using **ResNet-18** model.
+## Aim :
+* To perform image classification using CIFAR dataset under following conditions
+ - Using Resnet-18 model
+ - Above 90 % accuracy
+ - Within 25 epochs 
+* Perform albumentations
+* Plot GradCAM for misclassified images
+* To plot accuracy vs epochs curve
 
-Gradient-weighted Class Activation Map (GradCAM) was implemented for each convolution block to generate model prediction heatmaps (Examples shown below).
-Used resnet model.
+## Data description
+Around 60K images of 10 different classes : ship, bird,plane, automobile, cat, deer, dog, frog, horse, truck
 
-Total params: 11,173,962.
+**Train data**
+- Image size : 32 * 32 * 1
+- Total images : 50000
 
+**Test data**
+- Image size : 32 * 32 * 1
+- Total images : 10000 
 
 **Implemented Albumentation** 
 
-Rotate((-7.0, 7.0)),.
+- Rotate((-7.0, 7.0))
+- CutOut()
+- HorizontalFlip(),.
+- Normalize(mean=[0.5, 0.5, 0.5],std=[0.5, 0.5, 0.5]).
 
-CutOut(),.
-HorizontalFlip(),.
+## Model Structure
 
-Normalize(mean=[0.5, 0.5, 0.5],std=[0.5, 0.5, 0.5]).
+
+
 
 **Missclassified images**
 ![Misclassified_images](https://github.com/Noopuragr/EVA4/blob/master/S9/misclassified.PNG)
@@ -23,6 +38,9 @@ Normalize(mean=[0.5, 0.5, 0.5],std=[0.5, 0.5, 0.5]).
 **Implemented GradCam**
 
 ![Gradcam](https://github.com/Noopuragr/EVA4/blob/master/S9/grad.PNG)
+
+## Result
+The model reaches a maximum accuracy of **91.53%** in 20th epochs on CIFAR-10 dataset using **ResNet-18** model.
 
 **Accuracy plot**
 ![Accuracy plot](https://github.com/Noopuragr/EVA4/blob/master/S9/acc_plot.PNG)
