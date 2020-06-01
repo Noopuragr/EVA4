@@ -44,7 +44,7 @@ Around 60K images of 10 different classes : ship, bird,plane, automobile, cat, d
 
 **Implemented GradCam**
 
-![Gradcam](https://github.com/Noopuragr/EVA4/blob/master/S9/grad.PNG)
+![Gradcam](https://github.com/Noopuragr/EVA4/blob/master/S9/gradcam_images.PNG)
 
 ## Result
 The model reaches a maximum accuracy of **91.53%** in 20th epochs on CIFAR-10 dataset using **ResNet-18** model.
