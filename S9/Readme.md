@@ -28,10 +28,10 @@ Around 60K images of 10 different classes : ship, bird,plane, automobile, cat, d
 - Normalize(mean=[0.5, 0.5, 0.5],std=[0.5, 0.5, 0.5]).
 
 **Images after performing cutout**
-![](https://github.com/Noopuragr/EVA4/blob/master/S9/Cutout/cutout.png)
-![](https://github.com/Noopuragr/EVA4/blob/master/S9/Cutout/cutout2.png)
-![](https://github.com/Noopuragr/EVA4/blob/master/S9/Cutout/cutout3.png)
-![](https://github.com/Noopuragr/EVA4/blob/master/S9/Cutout/cutout4.png)
+![](https://github.com/Noopuragr/EVA4/blob/master/S9/Cutout/cutout.png).
+![](https://github.com/Noopuragr/EVA4/blob/master/S9/Cutout/cutout2.png).
+![](https://github.com/Noopuragr/EVA4/blob/master/S9/Cutout/cutout3.png).
+![](https://github.com/Noopuragr/EVA4/blob/master/S9/Cutout/cutout4.png).
 
 
 ## Model Structure
