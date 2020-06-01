@@ -14,12 +14,12 @@
 ### Train data :
   - Total number of images : 60,000
   - Batch size : 32
-  - Image size : 28*28*1
+  - Image size : 28 * 28 * 1
   
 ### Test Size:
   - Total number of images  10,000
   - Batch size : 32
-  - Image size : 28*28*1
+  - Image size : 28 * 28 * 1
 
 ## DNN Model
   - Total number of parameters : 8,286
