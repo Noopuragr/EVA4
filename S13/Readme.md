@@ -23,7 +23,7 @@ The final output is : ![](https://github.com/Noopuragr/EVA4/blob/master/S13/Assi
 ## 2. To train YoloV3 model on custom dataset and predict the object from video. 
 
 * Collected 500 images of "Woody" , a famous character of cartoon series "Toy Story".
-* Annotated all images using this ![code](https://github.com/miki998/YoloV3_Annotation_Tool).
+* Annotated all images using this !code(https://github.com/miki998/YoloV3_Annotation_Tool).
 * Refered ![this](https://github.com/theschoolofai/YoloV3) repo for implementation.
 * Ran for 300 epochs. And then tried to predict the character in video.
 
